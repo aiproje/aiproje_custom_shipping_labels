@@ -1,0 +1,86 @@
+/**
+ * 2023-2025 AIPROJE
+ *
+ * Alıcı Ödemeli Kargo Modülü - Admin CSS
+ *
+ * @author    AIPROJE <info@aiproje.com>
+ * @copyright 2023-2025 AIPROJE
+ * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+.bootstrap .form-group {
+    margin-bottom: 25px;
+}
+
+.carrier-section {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.carrier-section:last-child {
+    border-bottom: none;
+}
+
+.language-section {
+    margin-left: 15px;
+}
+
+/* Form alanları için iyileştirmeler */
+.bootstrap input[type="text"],
+.bootstrap textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.panel-aiproje-shipping {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.panel-aiproje-shipping .panel-heading {
+    font-weight: bold;
+    background-color: #f8f8f8;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px 5px 0 0;
+    color: #333;
+}
+
+.panel-aiproje-shipping .panel-body {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.panel-aiproje-shipping textarea {
+    font-family: monospace;
+    min-height: 80px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.panel-aiproje-shipping .help-block {
+    color: #777;
+    font-style: italic;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.panel-aiproje-shipping .form-group {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.panel-aiproje-shipping .form-group:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

@@ -1,0 +1,54 @@
+/**
+ * 2023-2025 AIPROJE
+ *
+ * Alıcı Ödemeli Kargo Modülü
+ *
+ * @author    AIPROJE <info@aiproje.com>
+ * @copyright 2023-2025 AIPROJE
+ * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+/* Genel stil tanımlamaları */
+.aiproje-custom-shipping-info {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f8f8f8;
+    border-radius: 4px;
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+.aiproje-custom-price {
+    color: #e74c3c !important;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.aiproje-custom-description {
+    font-style: italic;
+    margin-top: 5px;
+    display: block;
+    color: #555;
+}
+
+/* onepagecheckoutps modülü için ek stiller */
+#onepagecheckoutps .aiproje-custom-shipping-info {
+    margin: 5px 0;
+    padding: 8px;
+    font-size: 13px;
+}
+
+#onepagecheckoutps .aiproje-custom-price {
+    font-size: 14px;
+}
+
+/* Mobil görünüm için ek stiller */
+@media (max-width: 768px) {
+    .aiproje-custom-shipping-info {
+        padding: 8px;
+        margin-top: 5px;
+    }
+}
